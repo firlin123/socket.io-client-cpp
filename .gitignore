@@ -2,10 +2,16 @@ build/
 **/*.user
 
 CMakeCache.txt
+CTestTestfile.cmake
+DartConfiguration.tcl
+compile_commands.json
 CMakeFiles/
 Makefile
 cmake_install.cmake
 install_manifest.txt
 libsioclient.a
+libsioclient_tls.a
 .DS_Store
 .cache/
+_deps/
+sioclient/

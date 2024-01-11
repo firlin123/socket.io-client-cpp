@@ -5,7 +5,6 @@
 #include <asio/error_code.hpp>
 #include <queue>
 #include <chrono>
-#include <cstdarg>
 #include <functional>
 
 #if (DEBUG || _DEBUG) && !defined(SIO_DISABLE_LOGGING)
@@ -433,8 +432,7 @@ namespace sio
                 {
 					message::list msglist(ptr->get_vector());
 					this->on_socketio_ack(p.get_pack_id(),msglist);
-                }
-				else
+                } else
 				{
 					this->on_socketio_ack(p.get_pack_id(),message::list(ptr));
 				}

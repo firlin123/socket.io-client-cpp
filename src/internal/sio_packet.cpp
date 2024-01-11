@@ -9,6 +9,7 @@
 #include <rapidjson/encodedstream.h>
 #include <rapidjson/writer.h>
 #include <cassert>
+#include <sstream>
 
 #define kBIN_PLACE_HOLDER "_placeholder"
 
@@ -175,12 +176,10 @@ namespace sio
                 }
             }
             return ptr;
-        }
-		else if(value.IsBool())
+        } else if(value.IsBool())
 		{
 			return bool_message::create(value.GetBool());
-		}
-		else if(value.IsNull())
+		} else if(value.IsNull())
 		{
 			return null_message::create();
 		}

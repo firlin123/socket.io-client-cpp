@@ -40,15 +40,9 @@ By virtue of being written in C++, this client works in several different platfo
 
 Note: Only the WebSocket transport is currently implemented (no fallback to HTTP long-polling)
 
-## Installation alternatives
+## Installation
 
-* [With CMAKE](./INSTALL.md#with-cmake)
-* [Without CMAKE](./INSTALL.md#without-cmake)
-* [With VCPKG](./INSTALL.md#with-vcpkg)
-* [iOS and OS X](./INSTALL_IOS.md)
- * Option 1: Cocoapods
- * Option 2: Create a static library
- * Option 3: Manual integration
+* [Install](./INSTALL.md)
 
 
 ## Quickstart
