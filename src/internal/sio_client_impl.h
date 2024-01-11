@@ -1,7 +1,6 @@
 #ifndef SIO_CLIENT_IMPL_H
 #define SIO_CLIENT_IMPL_H
 
-#include <cstdint>
 #ifdef _WIN32
 #define _WEBSOCKETPP_CPP11_THREAD_
 //#define _WEBSOCKETPP_CPP11_RANDOM_DEVICE_
